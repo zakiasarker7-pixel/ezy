@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - ShopEasy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h2>ShopEasy</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="featured">
+
+    <div class="product-card" style="max-width:600px; margin:auto;">
+
+        <img src="images/laptop.jpg" alt="Laptop">
+
+        <h2>Gaming Laptop</h2>
+
+        <p>
+            High-performance gaming laptop with Intel Core i7 processor,
+            16GB RAM, 512GB SSD and dedicated graphics card.
+        </p>
+
+        <h3>Price: $699</h3>
+
+        <button onclick="addToCart('Gaming Laptop',699)">
+            Add to Cart
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 ShopEasy. All Rights Reserved.</p>
+</footer>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>
