@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ShopEasy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h2>ShopEasy</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="featured">
+    <h2>Our Products</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="images/shoe.jpg" alt="Running Shoe">
+            <h3>Running Shoe</h3>
+            <p>$49</p>
+            <button onclick="addToCart('Running Shoe',49)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/watch.jpg" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p>$79</p>
+            <button onclick="addToCart('Smart Watch',79)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/headphone.jpg" alt="Headphone">
+            <h3>Headphone</h3>
+            <p>$59</p>
+            <button onclick="addToCart('Headphone',59)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/laptop.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>$699</p>
+            <button onclick="addToCart('Laptop',699)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/mobile.jpg" alt="Mobile">
+            <h3>Mobile Phone</h3>
+            <p>$399</p>
+            <button onclick="addToCart('Mobile Phone',399)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/tshirt.jpg" alt="T-Shirt">
+            <h3>T-Shirt</h3>
+            <p>$25</p>
+            <button onclick="addToCart('T-Shirt',25)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 ShopEasy. All Rights Reserved.</p>
+</footer>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>
