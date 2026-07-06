@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 15.99,
+    "image": "images/mouse.jpg",
+    "description": "High quality wireless optical mouse."
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 49.99,
+    "image": "images/keyboard.jpg",
+    "description": "RGB mechanical gaming keyboard."
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "price": 35.50,
+    "image": "images/headset.jpg",
+    "description": "Stereo headset with noise cancellation."
+  },
+  {
+    "id": 4,
+    "name": "USB Flash Drive 64GB",
+    "price": 12.99,
+    "image": "images/usb.jpg",
+    "description": "Fast USB 3.0 flash drive."
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 28.99,
+    "image": "images/speaker.jpg",
+    "description": "Portable Bluetooth speaker."
+  },
+  {
+    "id": 6,
+    "name": "Smart Watch",
+    "price": 79.99,
+    "image": "images/watch.jpg",
+    "description": "Fitness tracking smart watch."
+  },
+  {
+    "id": 7,
+    "name": "Laptop Backpack",
+    "price": 22.50,
+    "image": "images/backpack.jpg",
+    "description": "Water-resistant laptop backpack."
+  },
+  {
+    "id": 8,
+    "name": "Power Bank 10000mAh",
+    "price": 24.99,
+    "image": "images/powerbank.jpg",
+    "description": "Fast charging power bank."
+  },
+  {
+    "id": 9,
+    "name": "Phone Holder",
+    "price": 8.99,
+    "image": "images/holder.jpg",
+    "description": "Adjustable mobile phone holder."
+  },
+  {
+    "id": 10,
+    "name": "Wireless Earbuds",
+    "price": 39.99,
+    "image": "images/earbuds.jpg",
+    "description": "Bluetooth wireless earbuds."
+  }
+]
